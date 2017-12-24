@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/antoniobelmar/countries/issues"
   },
-  "homepage": "https://github.com/antoniobelmar/countries#readme"
+  "homepage": "https://github.com/antoniobelmar/countries#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
