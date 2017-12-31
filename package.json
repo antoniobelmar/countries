@@ -18,6 +18,9 @@
   "homepage": "https://github.com/antoniobelmar/countries#readme",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "fast-csv": "^2.4.1",
+    "pg": "^7.4.0",
+    "sequelize": "^4.28.6"
   }
 }
