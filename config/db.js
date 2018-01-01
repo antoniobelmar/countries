@@ -9,6 +9,6 @@ var db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.country = require('../models/country.js')(sequelize, Sequelize);
+db.countries = require('../models/country.js')(sequelize, Sequelize);
 
 module.exports = db;
