@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Countries</title>
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    Hello
     <table>
     <% for(var i=0; i < countryData.length; i++) { %>
        <tr>
-         <td><%= countryData[i].name %></td>
+         <td class="to-guess"><%= countryData[i].name %></td>
        </tr>
     <% } %>
     </table>
