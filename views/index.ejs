@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <title>Countries</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/javascripts/script.js"></script>
   </head>
   <body>
+    <input id="country" type="text" />
     <table>
     <% for(var i=0; i < countryData.length; i++) { %>
        <tr>
-         <td class="to-guess"><%= countryData[i].name %></td>
+         <td id="<%=countryData[i].name.split(' ').join('')%>" class="to-guess"><%= countryData[i].name %></td>
        </tr>
     <% } %>
     </table>
